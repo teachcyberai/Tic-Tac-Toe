@@ -1,0 +1,296 @@
+<div style="margin: 20px; text-align: center;">
+  <script type="text/javascript">
+
+	atOptions = {
+
+		'key' : '669aaec257d9d07b004ffe50d5bba8c9',
+
+		'format' : 'iframe',
+
+		'height' : 60,
+
+		'width' : 468,
+
+		'params' : {}
+
+	};
+
+</script>
+
+<script src="//www.highperformanceformat.com/669aaec257d9d07b004ffe50d5bba8c9/invoke.js" type="text/javascript"></script>
+  <h2 id="gameTitle" style="-webkit-background-clip: text; animation: 2s ease 0s infinite alternate none running titleMove, 1s ease 0s infinite normal none running titleBounce; background: linear-gradient(90deg, rgb(33, 150, 243), rgb(100, 181, 246), rgb(187, 222, 251)) text; color: transparent; font-size: 32px; font-weight: bold;">🎮 Tic Tac Toe Mania</h2>
+
+  <div style="background: linear-gradient(135deg, rgb(224, 247, 250), rgb(178, 235, 242)); border-radius: 15px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px; display: inline-block; padding: 20px; position: relative;">
+    <table id="ticTacToe" style="border-collapse: collapse;">
+      <tbody><tr>
+        <td onclick="makeMove(this,0)"></td>
+        <td onclick="makeMove(this,1)"></td>
+        <td onclick="makeMove(this,2)"></td>
+      </tr>
+      <tr>
+        <td onclick="makeMove(this,3)"></td>
+        <td onclick="makeMove(this,4)"></td>
+        <td onclick="makeMove(this,5)"></td>
+      </tr>
+      <tr>
+        <td onclick="makeMove(this,6)"></td>
+        <td onclick="makeMove(this,7)"></td>
+        <td onclick="makeMove(this,8)"></td>
+      </tr>
+    </tbody></table>
+
+    <!--Winning line-->
+    <div id="winLine" style="background: linear-gradient(90deg, rgb(33, 150, 243), rgb(100, 181, 246), rgb(187, 222, 251)); border-radius: 3px; box-shadow: rgb(100, 181, 246) 0px 0px 15px; height: 6px; left: 0px; position: absolute; top: 0px; transform-origin: left center; transition: 0.5s; width: 0px;"></div>
+  </div>
+
+  <p id="winner" style="font-size: 18px; font-weight: bold; margin-top: 15px;"></p>
+  <button onclick="resetGame()" style="background: linear-gradient(135deg, rgb(33, 150, 243), rgb(100, 181, 246)); border-radius: 10px; border: none; box-shadow: rgba(33, 150, 243, 0.4) 0px 5px 15px; color: white; cursor: pointer; font-size: 16px; font-weight: bold; margin-top: 15px; padding: 12px 25px; transition: 0.3s;">Reset Game</button>
+</div><div style="margin: 20px; text-align: center;"><script type="text/javascript">
+
+	atOptions = {
+
+		'key' : '2db56fa30436e4bb2088185efc877ea2',
+
+		'format' : 'iframe',
+
+		'height' : 90,
+
+		'width' : 728,
+
+		'params' : {}
+
+	};
+
+</script>
+
+<script src="//www.highperformanceformat.com/2db56fa30436e4bb2088185efc877ea2/invoke.js" type="text/javascript"></script></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj15h-qbcZJ5-I7U5XAfpxJhHY3l2M_255fj0WDx5z2WVXnzfzLSfLkj7o2YQ7oOeGMCczpafSL5nVEqkjAeOkEvMLW-JQbDixB1OW8otOx6dIs-m6akv-VwMFrzHSOK5jeI0hA739uTc6rFbihyphenhyphenSb6F0cD3EGNz366TwwWtK_00QKo3pGufIYFY5eWPPU/s832/1756042964090.jpg" style="margin-left: 1em; margin-right: 1em;"><img alt="Tic Tac Toe game" border="0" data-original-height="832" data-original-width="716" height="640" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj15h-qbcZJ5-I7U5XAfpxJhHY3l2M_255fj0WDx5z2WVXnzfzLSfLkj7o2YQ7oOeGMCczpafSL5nVEqkjAeOkEvMLW-JQbDixB1OW8otOx6dIs-m6akv-VwMFrzHSOK5jeI0hA739uTc6rFbihyphenhyphenSb6F0cD3EGNz366TwwWtK_00QKo3pGufIYFY5eWPPU/w550-h640/1756042964090.jpg" width="550" /></a></div><br /><div style="margin: 20px; text-align: center;"><script async="async" data-cfasync="false" src="//pl27525280.effectivecpmrate.com/cbdaf60f2acca960f608ccf4ac7b71bb/invoke.js"></script>
+
+<div id="container-cbdaf60f2acca960f608ccf4ac7b71bb"></div></div>
+
+<style>
+
+/* Title animation */
+
+@keyframes titleMove {
+
+  0%{background-position:0%;}
+
+  100%{background-position:200%;}
+
+}
+
+@keyframes titleBounce {
+
+  0%,100%{transform:translateY(0);}
+
+  50%{transform:translateY(-5px);}
+
+}
+
+#ticTacToe td {
+
+  width:70px; 
+
+  height:70px; 
+
+  border:2px solid #333; 
+
+  font-size:36px; 
+
+  text-align:center; 
+
+  vertical-align:middle; 
+
+  cursor:pointer;
+
+  transition: all 0.3s ease;
+
+  color: #333;
+
+  font-weight: bold;
+
+  background: #ffffffc2;
+
+  border-radius:12px;
+
+}
+
+#ticTacToe td:hover {
+
+  box-shadow: 0 0 20px #81d4fa;
+
+}
+
+.glow {
+
+  color: #2196f3;
+
+  text-shadow: 0 0 8px #2196f3, 0 0 15px #64b5f6;
+
+  animation: glowPulse 1s infinite alternate;
+
+}
+  
+  @keyframes glowPulse {
+
+  from { text-shadow: 0 0 5px #2196f3, 0 0 10px #64b5f6; }
+
+  to { text-shadow: 0 0 12px #2196f3, 0 0 25px #64b5f6; }
+
+}
+
+.win-cell {
+
+  background: #bbdefb !important;
+
+}
+
+</style>
+
+<script>
+
+let board = ["","","","","","","","",""];
+
+let currentPlayer = "X";
+
+let gameOver = false;
+
+const winCombos = [
+
+  [0,1,2],[3,4,5],[6,7,8],
+
+  [0,3,6],[1,4,7],[2,5,8],
+
+  [0,4,8],[2,4,6]
+
+];
+
+function makeMove(cell, index){
+
+  if(board[index] === "" && !gameOver){
+
+    board[index] = currentPlayer;
+
+    cell.innerHTML = currentPlayer;
+
+    cell.classList.add("glow");
+
+    checkWinner();
+
+    currentPlayer = (currentPlayer === "X") ? "O" : "X";
+
+  }
+
+}
+  
+  function checkWinner(){
+
+  for(let combo of winCombos){
+
+    const [a,b,c] = combo;
+
+    if(board[a] && board[a] === board[b] && board[a] === board[c]){
+
+      document.getElementById("winner").innerText = board[a] + " won!";
+
+      gameOver = true;
+
+      highlightWin(combo);
+
+      drawWinLine(combo);
+
+      return;
+
+    }
+
+  }
+
+  if(!board.includes("")){
+
+    document.getElementById("winner").innerText = "It's a Draw!";
+
+    gameOver = true;
+
+  }
+
+}
+
+function highlightWin(combo){
+
+  combo.forEach(index=>{
+
+    document.querySelectorAll("#ticTacToe td")[index].classList.add("win-cell");
+
+  });
+
+}
+
+// Winning line animation from one side to other
+
+function drawWinLine(combo){
+
+  const line = document.getElementById("winLine");
+
+  const cells = document.querySelectorAll("#ticTacToe td");
+
+  const first = cells[combo[0]].getBoundingClientRect();
+
+  const last = cells[combo[2]].getBoundingClientRect();
+  
+  const container = cells[0].closest("div").getBoundingClientRect();
+
+  const x1 = first.left - container.left + first.width/2;
+
+  const y1 = first.top - container.top + first.height/2;
+
+  const x2 = last.left - container.left + last.width/2;
+
+  const y2 = last.top - container.top + last.height/2;
+
+  const length = Math.hypot(x2-x1, y2-y1);
+
+  const angle = Math.atan2(y2-y1, x2-x1) * 180 / Math.PI;
+
+  line.style.top = y1 + "px";
+
+  line.style.left = x1 + "px";
+
+  line.style.transform = "rotate(" + angle + "deg)";
+
+  
+
+  // Animate line growing from 0 to full length
+
+  line.style.width = "0";
+
+  setTimeout(()=>{ line.style.width = length + "px"; },50);
+
+}
+
+function resetGame(){
+
+  board = ["","","","","","","","",""];
+
+  currentPlayer = "X";
+
+  gameOver = false;
+
+  document.getElementById("winner").innerText = "";
+
+  const cells = document.querySelectorAll("#ticTacToe td");
+  
+  cells.forEach(cell => {
+
+    cell.innerHTML = "";
+
+    cell.classList.remove("glow");
+
+    cell.classList.remove("win-cell");
+
+  });
+
+  document.getElementById("winLine").style.width = "0";
+
+}
+
+</script>
