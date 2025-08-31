@@ -1,36 +1,36 @@
 <div style="margin: 20px; text-align: center;">
   
-  <h2 id="gameTitle" style="-webkit-background-clip: text; animation: 2s ease 0s infinite alternate none running titleMove, 1s ease 0s infinite normal none running titleBounce; background: linear-gradient(90deg, rgb(33, 150, 243), rgb(100, 181, 246), rgb(187, 222, 251)) text; color: transparent; font-size: 32px; font-weight: bold;">🎮 Tic Tac Toe Mania</h2>
+  <h2 id="gameTitle" style="-webkit-background-clip: text; animation: 2s infinite alternate titleMove, 1s infinite titleBounce; background: linear-gradient(90deg, rgb(33, 150, 243), rgb(100, 181, 246), rgb(187, 222, 251)) padding-box text; color: transparent; font-size: 32px; font-weight: bold;">🎮 Tic Tac Toe Mania</h2>
 
   <div style="background: linear-gradient(135deg, rgb(224, 247, 250), rgb(178, 235, 242)); border-radius: 15px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px; display: inline-block; padding: 20px; position: relative;">
     <table id="ticTacToe" style="border-collapse: collapse;">
       <tbody><tr>
-        <td onclick="makeMove(this,0)"></td>
-        <td onclick="makeMove(this,1)"></td>
-        <td onclick="makeMove(this,2)"></td>
+        <td onclick="makeMove(this,0)"><br /></td>
+        <td onclick="makeMove(this,1)"><br /></td>
+        <td onclick="makeMove(this,2)"><br /></td>
       </tr>
       <tr>
-        <td onclick="makeMove(this,3)"></td>
-        <td onclick="makeMove(this,4)"></td>
-        <td onclick="makeMove(this,5)"></td>
+        <td onclick="makeMove(this,3)"><br /></td>
+        <td onclick="makeMove(this,4)"><br /></td>
+        <td onclick="makeMove(this,5)"><br /></td>
       </tr>
       <tr>
-        <td onclick="makeMove(this,6)"></td>
-        <td onclick="makeMove(this,7)"></td>
-        <td onclick="makeMove(this,8)"></td>
+        <td onclick="makeMove(this,6)"><br /></td>
+        <td onclick="makeMove(this,7)"><br /></td>
+        <td onclick="makeMove(this,8)"><br /></td>
       </tr>
     </tbody></table>
 
     <!--Winning line-->
-    <div id="winLine" style="background: linear-gradient(90deg, rgb(33, 150, 243), rgb(100, 181, 246), rgb(187, 222, 251)); border-radius: 3px; box-shadow: rgb(100, 181, 246) 0px 0px 15px; height: 6px; left: 0px; position: absolute; top: 0px; transform-origin: left center; transition: 0.5s; width: 0px;"></div>
+    <div id="winLine" style="background: linear-gradient(90deg, rgb(33, 150, 243), rgb(100, 181, 246), rgb(187, 222, 251)); border-radius: 3px; box-shadow: rgb(100, 181, 246) 0px 0px 15px; height: 6px; left: 0px; position: absolute; top: 0px; transform-origin: left center 0px; transition: 0.5s; width: 0px;"></div>
   </div>
 
   <p id="winner" style="font-size: 18px; font-weight: bold; margin-top: 15px;"></p>
-  <button onclick="resetGame()" style="background: linear-gradient(135deg, rgb(33, 150, 243), rgb(100, 181, 246)); border-radius: 10px; border: none; box-shadow: rgba(33, 150, 243, 0.4) 0px 5px 15px; color: white; cursor: pointer; font-size: 16px; font-weight: bold; margin-top: 15px; padding: 12px 25px; transition: 0.3s;">Reset Game</button>
+  <button onclick="resetGame()" style="background: linear-gradient(135deg, rgb(33, 150, 243), rgb(100, 181, 246)); border-radius: 10px; border: medium; box-shadow: rgba(33, 150, 243, 0.4) 0px 5px 15px; color: white; cursor: pointer; font-size: 16px; font-weight: bold; margin-top: 15px; padding: 12px 25px; transition: 0.3s;">Reset Game</button>
 </div><div style="margin: 20px; text-align: center;">
 	
 
- </div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj15h-qbcZJ5-I7U5XAfpxJhHY3l2M_255fj0WDx5z2WVXnzfzLSfLkj7o2YQ7oOeGMCczpafSL5nVEqkjAeOkEvMLW-JQbDixB1OW8otOx6dIs-m6akv-VwMFrzHSOK5jeI0hA739uTc6rFbihyphenhyphenSb6F0cD3EGNz366TwwWtK_00QKo3pGufIYFY5eWPPU/s832/1756042964090.jpg" style="margin-left: 1em; margin-right: 1em;"><img alt="Tic Tac Toe game" border="0" data-original-height="832" data-original-width="716" height="640" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj15h-qbcZJ5-I7U5XAfpxJhHY3l2M_255fj0WDx5z2WVXnzfzLSfLkj7o2YQ7oOeGMCczpafSL5nVEqkjAeOkEvMLW-JQbDixB1OW8otOx6dIs-m6akv-VwMFrzHSOK5jeI0hA739uTc6rFbihyphenhyphenSb6F0cD3EGNz366TwwWtK_00QKo3pGufIYFY5eWPPU/w550-h640/1756042964090.jpg" width="550" /></a></div><br /><div style="margin: 20px; text-align: center;">
+ </div><br /><div style="margin: 20px; text-align: center;">
 
 <div id="container-cbdaf60f2acca960f608ccf4ac7b71bb"></div></div>
 
